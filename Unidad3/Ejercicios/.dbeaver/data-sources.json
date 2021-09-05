@@ -1,0 +1,30 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-17af8ba99db-6ab67aa8cd16fb05": {
+			"provider": "generic",
+			"driver": "sqlite_jdbc",
+			"name": "hr.db",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "D:\\Documentos\\Proyectos\\ProyectosVSCode\\UTP\\Ciclo2\\Unidad3\\Material\\hr.db",
+				"url": "jdbc:sqlite:D:\\Documentos\\Proyectos\\ProyectosVSCode\\UTP\\Ciclo2\\Unidad3\\Material\\hr.db",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}

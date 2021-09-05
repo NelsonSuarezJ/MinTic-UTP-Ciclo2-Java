@@ -1,0 +1,30 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-17b084103e3-53350918cd50ecdc": {
+			"provider": "generic",
+			"driver": "sqlite_jdbc",
+			"name": "bdprueba.db",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "D:\\Documentos\\Proyectos\\ProyectosVSCode\\UTP\\Ciclo2\\Unidad3\\Ejercicios\\bdprueba.db",
+				"url": "jdbc:sqlite:D:\\Documentos\\Proyectos\\ProyectosVSCode\\UTP\\Ciclo2\\Unidad3\\Ejercicios\\bdprueba.db",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}

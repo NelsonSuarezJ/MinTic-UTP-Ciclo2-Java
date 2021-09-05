@@ -1,0 +1,22 @@
+SELECT Constructora, Fecha_Inicio, Clasificacion
+FROM Proyecto
+WHERE Ciudad='Pereira'
+
+SELECT Proveedor, Cantidad, Cantidad*Precio_Unidad as 'Valor pagado'
+FROM Compra JOIN MaterialConstruccion
+ON Compra.ID_MaterialConstruccion=MaterialConstruccion.ID_MaterialConstruccion
+WHERE Nombre_Material='Vidrio'
+AND Pagado='Si'
+
+SELECT sum(Cantidad)
+FROM Compra
+WHERE Proveedor='Homecenter'
+
+SELECT Nombre || ' ' || Primer_Apellido || ' ' || Segundo_Apellido as 'Nombre Líder'
+FROM Lider
+WHERE Ciudad_Residencia='Londres'
+
+SELECT Constructora, sum(Numero_Habitaciones) AS Habitaciones
+FROM Proyecto
+GROUP BY Constructora
+HAVING count(Numero_Habitaciones)>80
